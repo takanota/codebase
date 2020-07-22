@@ -5,12 +5,13 @@
 <head>
   <title>hello</title>
   <script type="text/javascript">
-    window.beforeunload = function (e) {
+    window.onbeforeunload = function (e) {
       e.returnValue = "are you sure?";
     };
   </script>
 </head>
 <body>
   <h1>Hello</h1>
+  <p><a href="./test2.html">test2</a></p>
 </body>
 </html>
