@@ -6,7 +6,7 @@
   <title>hello</title>
   <script type="text/javascript">
     window.onbeforeunload = function (e) {
-      e.returnValue = "are you sure?";
+      e.returnValue = "";
     };
   </script>
 </head>
